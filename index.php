@@ -1,6 +1,6 @@
 <?php 
 $frase = "Sei uno scemo";
-$filtro = str_replace('cem', "***", $frase);
+$filtro = str_replace($_GET['parola'], "s***o", $frase);
 ?>
 <!DOCTYPE html>
 <html lang="en">
